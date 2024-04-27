@@ -466,7 +466,7 @@ function initFirstOutputMapping() {
 
     /* Turbo */
     span = document.createElement("span");
-    span.setAttribute("style", "width:110px;display:inline-block;");
+    span.setAttribute("style", "width:117px;display:inline-block;");
     span.title = "Turbo function base on the system frame rate.";
     label = document.createElement("label");
     label.innerText = 'Turbo';
