@@ -349,7 +349,7 @@ function initFirstOutputMapping() {
 
     /* Src */
     var span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:194px;display:inline-block;");
     span.title = "This is the source button/axis on the Bluetooth controller";
     var label = document.createElement("label");
     label.innerText = 'Src';
@@ -369,7 +369,7 @@ function initFirstOutputMapping() {
 
     /* Dest */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:194px;display:inline-block;");
     span.title = "This is the destination button/axis on the wired interface.";
     label = document.createElement("label");
     label.innerText = 'Dest';
@@ -383,7 +383,7 @@ function initFirstOutputMapping() {
 
     /* Dest ID */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:83px;display:inline-block;");
     span.title = "This is the ID of the wired interface.";
     label = document.createElement("label");
     label.innerText = 'Dest ID';
@@ -403,7 +403,7 @@ function initFirstOutputMapping() {
 
     /* Max */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:60px;display:inline-block;");
     span.title = "If source & destination is an axis then this is the scaling factor base on the destination maximum. If source is a button & destination is an axis then this is the value base on destination maximum that the axis will be set.";
     label = document.createElement("label");
     label.innerText = 'Max';
@@ -424,7 +424,7 @@ function initFirstOutputMapping() {
 
     /* Threshold */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:60px;display:inline-block;");
     span.title = "If source is an axis and destination is a button, this is the threshold requires on the source axis before the button is pressed.";
     label = document.createElement("label");
     label.innerText = 'Thres';
@@ -445,7 +445,7 @@ function initFirstOutputMapping() {
 
     /* Deadone */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:77px;display:inline-block;");
     span.title = "This is the axis dead zone around reset value.";
     label = document.createElement("label");
     label.innerText = 'Deadzone';
@@ -466,7 +466,7 @@ function initFirstOutputMapping() {
 
     /* Turbo */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:110px;display:inline-block;");
     span.title = "Turbo function base on the system frame rate.";
     label = document.createElement("label");
     label.innerText = 'Turbo';
@@ -486,7 +486,7 @@ function initFirstOutputMapping() {
 
     /* Scaling */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:99px;display:inline-block;");
     span.title = "Various response curve for scaling. (Only Passthrough and Linear, others TBD)";
     label = document.createElement("label");
     label.innerText = 'Scaling';
@@ -506,7 +506,7 @@ function initFirstOutputMapping() {
 
     /* Scaling diag */
     span = document.createElement("span");
-    span.setAttribute("style", "max-width:10%;display:inline-block;");
+    span.setAttribute("style", "width:110px;display:inline-block;");
     span.title = "Diagonal scaling options between joystick type. (TBD Not implemented yet)";
     label = document.createElement("label");
     label.innerText = 'Diagonal';
