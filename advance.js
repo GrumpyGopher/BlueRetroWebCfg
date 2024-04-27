@@ -580,6 +580,7 @@ function initOutputMapping() {
 
     /* Dest */
     var dest = src.cloneNode(true);
+    dest.setAttribute("class", "dest");
     dest.setAttribute("style", "width:194px;");
     dest.title = "This is the destination button/axis on the wired interface.";
     mappingElement.appendChild(dest);
